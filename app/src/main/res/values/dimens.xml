@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">10dp</dimen>
+    <dimen name="paragraph_margin">6dp</dimen>
+    <dimen name="margin_input_horizontal">24dp</dimen>
+    <dimen name="margin_input_vertical">12dp</dimen>
+    <dimen name="row_margin">3dp</dimen>
+
+    <dimen name="text_size_title">48sp</dimen>
+    <dimen name="text_size_description">24sp</dimen>
+    <dimen name="text_size_regular">14sp</dimen>
+    <dimen name="text_size_app_name">72sp</dimen>
+    <dimen name="text_size_helper">18sp</dimen>
+    <dimen name="progress_bar_margin">33dp</dimen>
+</resources>
