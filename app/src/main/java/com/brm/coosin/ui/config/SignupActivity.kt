@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.Toast
 import com.brm.coosin.data.network.ApiServiceImpl
 import com.brm.coosin.databinding.ActivitySignupBinding
-import com.brm.coosin.model.Lead
+import com.brm.coosin.data.model.Lead
 import com.brm.coosin.ui.main.MainActivity
 import com.brm.coosin.util.AppPreferences
 import io.reactivex.disposables.Disposable

@@ -1,6 +1,6 @@
 package com.brm.coosin.data.network
 
-import com.brm.coosin.model.Lead
+import com.brm.coosin.data.model.Lead
 import com.brm.coosin.util.StringConverterFactory
 import io.reactivex.Observable
 import io.reactivex.Scheduler

@@ -1,4 +1,4 @@
-package com.brm.coosin.model
+package com.brm.coosin.data.model
 
 /**
  * Created by Rakhimjonov Shokhsulton on 23,март,2022

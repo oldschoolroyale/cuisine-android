@@ -12,4 +12,13 @@
     <string name="name">Name</string>
     <string name="already_have_an_account_log_in">Already have an account? Log in</string>
     <string name="username">Username</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="best_recipes">Best recipes</string>
+    <string name="latest">Latest</string>
+    <string name="cuisine_choice">Cuisine choise</string>
 </resources>

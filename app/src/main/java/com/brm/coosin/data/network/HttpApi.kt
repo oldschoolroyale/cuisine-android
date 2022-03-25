@@ -1,6 +1,6 @@
 package com.brm.coosin.data.network
 
-import com.brm.coosin.model.Lead
+import com.brm.coosin.data.model.Lead
 import io.reactivex.Observable
 import retrofit2.http.Body
 import retrofit2.http.GET
