@@ -5,58 +5,87 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.main.MainFragment"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:background="@color/black_background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewPager2"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginTop="?attr/actionBarSize"
+            />
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dotsColor="@android:color/darker_gray"
+            app:dotsCornerRadius="8dp"
+            app:dotsSize="6dp"
+            app:dotsSpacing="2dp"
+            app:dotsWidthFactor="3"
+            app:selectedDotColor="@color/white"
+            app:progressMode="true"
+            android:layout_gravity="center"
+            />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/best_recipes"
-            android:textColor="@color/black"
-            android:textStyle="bold"
+            android:text="@string/best_rated_recipes"
+            android:textColor="@color/white"
+            android:fontFamily="@font/r_bold"
             android:paddingStart="@dimen/paragraph_margin"
             android:paddingEnd="@dimen/paragraph_margin"
             android:paddingTop="@dimen/paragraph_margin"
-            android:textSize="@dimen/text_size_description"/>
+            android:textSize="@dimen/text_size_description"
+            android:gravity="center_vertical"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            app:drawableTint="@color/white" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/best_recycler"
             android:layout_width="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"/>
+            android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/latest"
-            android:textColor="@color/black"
-            android:textStyle="bold"
+            android:text="@string/latest_and_fresh"
+            android:textColor="@color/white"
+            android:fontFamily="@font/r_bold"
             android:paddingStart="@dimen/paragraph_margin"
             android:paddingEnd="@dimen/paragraph_margin"
             android:paddingTop="@dimen/paragraph_margin"
-            android:textSize="@dimen/text_size_description"/>
+            android:textSize="@dimen/text_size_description"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            app:drawableTint="@color/white" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/latest_recycler"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"/>
+            android:orientation="horizontal" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cuisine_choice"
-            android:textColor="@color/black"
-            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/r_bold"
             android:paddingStart="@dimen/paragraph_margin"
             android:paddingEnd="@dimen/paragraph_margin"
             android:paddingTop="@dimen/paragraph_margin"
-            android:textSize="@dimen/text_size_description"/>
+            android:textSize="@dimen/text_size_description"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            app:drawableTint="@color/white" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/cuisine_recycler"
